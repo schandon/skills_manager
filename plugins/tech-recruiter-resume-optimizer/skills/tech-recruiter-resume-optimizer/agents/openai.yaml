@@ -1,0 +1,4 @@
+interface:
+  display_name: "TechRecruiter_ResumeOptimizer"
+  short_description: "Otimiza currículos e gera Markdown e PDF"
+  default_prompt: "Use $tech-recruiter-resume-optimizer para comparar meu currículo PDF com esta vaga, explicar o score de aderência e gerar o currículo otimizado em Markdown e PDF, salvando ambos na pasta que eu escolher."

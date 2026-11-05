@@ -1,0 +1,12 @@
+{
+  "name": "tech-recruiter-resume-optimizer",
+  "description": "Analisa currículo PDF contra uma vaga por URL ou texto, calcula aderência de 0 a 100 e gera um currículo direcionado em Markdown e PDF sem inventar qualificações. Triggers — currículo, vaga, recrutamento, aderência, otimização de CV.",
+  "author": {
+    "name": "Chewiesoft"
+  },
+  "version": "1.2.0",
+  "category": "productivity",
+  "keywords": ["resume", "cv", "job-description", "tech-recruiter", "fit-score", "markdown", "pdf"],
+  "platforms": ["claude-code", "cursor"],
+  "skills": "./skills"
+}

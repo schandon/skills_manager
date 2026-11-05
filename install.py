@@ -27,6 +27,13 @@ REPO_ROOT = Path(__file__).resolve().parent
 
 CURSOR_SKILL_MAP: list[dict[str, Any]] = [
     {
+        "plugin": "tech-recruiter-resume-optimizer",
+        "cursor_name": "tech-recruiter-resume-optimizer",
+        "display": "TechRecruiter_ResumeOptimizer — currículo direcionado a uma vaga, com score de aderência",
+        "source_type": "skill",
+        "source_dir": "plugins/tech-recruiter-resume-optimizer/skills/tech-recruiter-resume-optimizer",
+    },
+    {
         "plugin": "ansible-docker-backup-restore",
         "cursor_name": "ansible-docker-backup-restore",
         "display": "Ansible Backup & Restore — Docker services on a Linux server, with proof the backup still runs",

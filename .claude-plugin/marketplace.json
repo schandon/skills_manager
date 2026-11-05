@@ -9,6 +9,15 @@
   },
   "plugins": [
     {
+      "name": "tech-recruiter-resume-optimizer",
+      "source": "./plugins/tech-recruiter-resume-optimizer",
+      "version": "1.2.0",
+      "description": "Analisa currículo PDF contra uma vaga por URL ou texto, calcula aderência de 0 a 100 e gera um currículo direcionado em Markdown e PDF sem inventar qualificações. Triggers — currículo, vaga, recrutamento, aderência, otimização de CV.",
+      "category": "productivity",
+      "keywords": ["curriculo", "vaga", "recrutamento", "aderencia", "resume", "cv", "tech-recruiter"],
+      "platforms": ["claude-code", "cursor"]
+    },
+    {
       "name": "analise-frontend",
       "source": "./plugins/analise-frontend",
       "version": "1.0.0",
